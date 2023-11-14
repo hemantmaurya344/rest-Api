@@ -4,7 +4,7 @@ pipeline {
     stage('dev') {
       steps {
         echo 'Into Dev'
-        sh 'mvn clean'
+        sh 'clean'
         sh 'mvn install'
       }
     }
