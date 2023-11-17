@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Into Dev'
         sh 'mvn clean'
-        sh 'mvn install'
+        sh 'mvn package'
       }
     }
 
